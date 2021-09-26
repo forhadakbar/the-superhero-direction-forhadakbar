@@ -1,6 +1,6 @@
 # weBuild Web Application
 
-Visit live site: [weBuild App](https://github.com/facebook/create-react-app).
+Visit live site: [weBuild App](https://webuild-react.netlify.app).
 
 ## Technology Used
 - JavaScript
