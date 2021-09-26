@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
-import Talent from '../Telent/Talent';
+import Talent from '../Talent/Talent';
 
 
 const Team = () => {
 
     const [talents, setTalent] = useState([]);
     const [cart, setCart] = useState([]);
+
+    //Load Data
 
     useEffect(() => {
 
@@ -16,6 +18,9 @@ const Team = () => {
 
     }, [])
 
+
+    //evenhandler for add button
+
     const handleAddtoCart = (talent) => {
         const newCart = [...cart, talent];
         setCart(newCart);
@@ -23,7 +28,7 @@ const Team = () => {
 
 
     return (
-        <div className="grid grid-cols-3 mt-24 px-4">
+        <div className="grid grid-cols-3 mt-20 px-4 mb-4">
 
             <div className="grid grid-cols-3 gap-4 col-span-2">
 

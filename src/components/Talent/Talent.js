@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserPlus, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
+// Individual card component
+
 
 const Talent = (props) => {
 
@@ -11,8 +13,6 @@ const Talent = (props) => {
     const UserPlusIcon = <FontAwesomeIcon icon={faUserPlus} />
 
     const locationIcon = <FontAwesomeIcon icon={faMapMarkerAlt} />
-
-
 
 
     return (
